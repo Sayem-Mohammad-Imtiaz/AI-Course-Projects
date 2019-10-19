@@ -184,7 +184,7 @@ public class Board {
     //BLACK player at this moment
     public int evaluationFunction()
     {
-        return (((this.numWhite*10)+(this.numKingWhite*20))-((this.numBlack*10)-(this.numKingBlack*20)));
+        return (((this.numWhite*10)+(this.numKingWhite*20))-((this.numBlack*10)+(this.numKingBlack*20)));
     }
 
 }
